@@ -1,6 +1,16 @@
-# deliveroo-cron-parser
+# Technical Task - Cron Expression Parser
 
-### Main Class : `Technical Task - Cron Expression Parser`
+### Requirements
+
+Write a command line application or script that parses a cron string and expands each field
+to show the times at which it will run. You may use whichever language you feel most
+comfortable with. The assignment must have an automated test suite.
+
+Please do not use any existing cron parser libraries for this exercise. While using pre-built
+libraries is generally a good idea, we want to assess your ability to create your own!
+You should only consider the standard cron format with five time fields (minute, hour, day of
+month, month, and day of week) plus a command, and you do not need to handle the special
+time strings such as "@yearly". The input will be on a single line.
 
 ### Setup
 1. gradle version : 8.10
